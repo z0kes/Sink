@@ -14,8 +14,8 @@ const props = defineProps({
 })
 const color = ref('#000000')
 const options = {
-  width: 256,
-  height: 256,
+  width: 512 ,
+  height: 512,
   data: props.data,
   margin: 10,
   qrOptions: { typeNumber: '0', mode: 'Byte', errorCorrectionLevel: 'Q' },
